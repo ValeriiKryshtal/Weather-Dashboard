@@ -9,3 +9,4 @@ Build a weather dashboard application with search functionality to find current 
 ## Deployed Link
 https://valeriikryshtal.github.io/Weather-Dashboard/
 ## App live
+![screenshoot](https://github.com/ValeriiKryshtal/Weather-Dashboard/blob/main/Weather%20dashboard06.jpg?raw=true)
