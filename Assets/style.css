@@ -1,0 +1,69 @@
+* {
+box-sizing: border-box;
+}
+.col-1 {
+     border: 2px solid yellowgreen;
+}
+.col-2 {
+     border: 10px solid yellowgreen;
+}
+.col-3 {
+     border: 10px solid yellowgreen;
+}
+.col-12 {
+     border: 20px solid yellowgreen;
+}
+.text-center {
+     background-color: rgb(21, 21, 83);
+}
+.day {
+     border-radius: 5%;
+     background-color: rgb(56, 56, 95);
+     width: 150px;
+     color:azure;
+     position: relative;
+     display: inline-block;
+     margin: 2%;
+     padding: 2%;
+     /* border: 2px solid red */
+     
+}
+.current-city-main {
+     border: 3px solid blueviolet;
+}
+.current-city-live {
+     margin-top: 2%;
+     border: 2px solid black;
+}
+/* .search {
+     border: 5px solid pink
+}
+.main-container {
+     border: 5px solid orange
+}
+.previos-search {
+     border: 3px solid black;
+} */
+.current-search {
+     display: flex;
+     flex-direction: column;
+     margin-top: 2%;
+     /* border: 5px solid red; */
+}
+.eachPreviousSearch {
+     display: flex;
+     justify-content: center;
+     border: 1px solid rgb(2, 29, 148);
+     border-radius: 6px;
+     background-color: rgba(163, 193, 238, 0.548);
+     margin: 1%;
+     width: 99%;
+}
+#search-conatiner {
+     /* margin: 1% 1% 1% 2%; */
+     border: 1px solid green; 
+}
+#input {
+     margin:1% 0 1% 0;
+     border-radius: 5px;
+}
