@@ -1,4 +1,3 @@
-alert('Please refresh the page to see previous search');
 $(document).ready(function(){
      //setting hooks 
      const searches = JSON.parse(window.localStorage.getItem("search")) || [];
@@ -15,13 +14,17 @@ $(document).ready(function(){
                const newPreviosSearch = `<button id="eachPreviousSearch${i}" class="eachPreviousSearch">${recievedSearch[i]}</button>`
                $('#previos-search').prepend(newPreviosSearch);
                $(`#eachPreviousSearch${i}`).on('click', function(){
+                    $('#previos-search').prepend(newPreviosSearch);
                     inputValue = recievedSearch[i]
                     currentSearch(inputValue)
-               })
-          } 
+               });
+
+          }
      // added listener to the "search" button
      $('#search-btn').on('click', function (){ 
           inputValue = input[0].value;
+               const newSearch = `<button id="eachPreviousSearch${0}" class="eachPreviousSearch">${inputValue}</button>`
+               $('#previos-search').prepend(newSearch);
           currentSearch()
      })
      // function that will update the weather info and add new sections
